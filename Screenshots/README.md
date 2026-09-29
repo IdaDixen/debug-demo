@@ -1,6 +1,6 @@
 # Debugging
 
-Jeg brugte IntelliJ IDEA's **debugger tool** til at undersøge og rette de tre fejl i projektet. Ved fejlen med de kun horizontale battleships satte jeg et **breakpoint** ud for metoden, der placerer laver spillepladen, for at stoppe op ved denne metode og dykke ned i de enkelte trin herefter. Jeg brugte **step over** og **step into** til at følge programmets flow. Jeg brugte også vinduet med variable til at undersøge værdier og udtryk undervejs. Dertil brugte jeg **evaluate** til at undersøge om udtryk ændrede sig som forventet ved hver kørsel.
+Jeg brugte IntelliJ IDEA's **debugger tool** til at undersøge og rette de tre fejl i projektet. Ved fejlen med de kun horizontale battleships satte jeg et **breakpoint** ud for metoden, der laver spillepladen, for at stoppe op ved denne metode og dykke ned i de enkelte trin herefter. Jeg brugte **step over** og **step into** til at følge programmets flow. Jeg brugte også vinduet med variable til at undersøge værdier og udtryk undervejs. Dertil brugte jeg **evaluate** til at undersøge om udtryk ændrede sig som forventet ved hver kørsel.
 
 Ved fejlen med den mangle "Ship sunk!"-besked, satte jeg et **breakpoint** ud for metoden, der generer trækkene i spillet. Igen brugte jeg **step over** og **step into** til at følge programmets flow, indtil jeg fandt det udtryk, der håndterer hits. Her brugte jeg **conditional breakpoints** i koden for at undersøge hvad der sker, når skibet er ramt tre gange.
 
